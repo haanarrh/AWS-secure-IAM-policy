@@ -8,6 +8,8 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 ##### Group:
 ##### Role:
 ##### Policy: 
+##### Least Privilage:
+##### Multi-factor Authentication (MFA): 
 
 ### Defined IAM users
 | **Username**     | **Group**          | **Purpose**                       |
