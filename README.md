@@ -24,4 +24,16 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | `wale.analyst`   | `ReadOnlyAnalysts` | Analyzes metrics and dashboards   |
 | `ife.billing`    | `BillingTeam`      | Monitors cost reports and budgets |
 
-### users
+### Security Features Applied
+
+  - Enforced MFA for all users
+
+  - Password policy: min 12 characters, includes numbers & symbols
+
+   -  Root account not used (only for emergencies)
+
+  -  No direct policy attachment to individual users
+
+   - CloudTrail enabled (optional but recommended)
+
+
