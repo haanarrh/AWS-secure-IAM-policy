@@ -5,6 +5,7 @@ CloutLead is a startup that designs, deploys, and manages cloud computing servic
 aiming to deliver scalable, secure, and cost-effective cloud solutions that accelerate digital transformation.
 
 ### Defined IAM users
+##### AWS Users: 
 | **Username**     | **Group**          | **Purpose**                       |
 | ---------------- | ------------------ | --------------------------------- |
 | `Lola.admin`     | `Admins`           | Super admin, full access          |
@@ -17,6 +18,9 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 ![IAM users](https://github.com/user-attachments/assets/2d6766e2-e7b3-485c-b209-8b81483eb258)
 
 ### Defined IAM Roles for Cloutlead
+##### Group:
+##### Role:
+##### Policy: 
 | **Role**             | **IAM Group**      | **Description**                                                                | **Example Permissions**                                    |
 | -------------------- | ------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
 | **Cloud Admin**      | `Admins`           | Oversees all AWS services. Full control over cloud resources and IAM.          | `AdministratorAccess` (AWS managed policy)                 |
