@@ -1,6 +1,5 @@
-# AWS-secure-IAM-policy
+# IMPLEMENTING IAM BEST PRACTICES IN AWS FOR CLOUTLEAD
 ## Overview
-### Implementing IAM best practices in AWS for CloutLead
 Designing a basic but secure IAM structure for a fictional company called CloutLead, following the principle of least privilege and AWS best practices.
 CloutLead is a startup that designs, deploys, and manages cloud computing services for businesses in Nigeria,
 aiming to deliver scalable, secure, and cost-effective cloud solutions that accelerate digital transformation.
