@@ -23,3 +23,5 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | `chika.security` | `SecurityTeam`     | Reviews logs and security alerts  |
 | `wale.analyst`   | `ReadOnlyAnalysts` | Analyzes metrics and dashboards   |
 | `ife.billing`    | `BillingTeam`      | Monitors cost reports and budgets |
+
+### users
