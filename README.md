@@ -26,9 +26,10 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | **Security Analyst** | `SecurityTeam`     | Monitors logs, reviews audit trails, and enforces security policies.           | Read-only on CloudTrail, GuardDuty, IAM logs               |
 | **Data Analyst**     | `ReadOnlyAnalysts` | Analyzes data, reviews metrics and dashboards. No access to edit.              | `ReadOnlyAccess` (AWS managed policy)                      |
 | **Billing Manager**  | `BillingTeam`      | Manages billing and budgets, but no access to AWS services.                    | `AWSBillingReadOnlyAccess`                                 |
+
 ![IAM groups & roles](https://github.com/user-attachments/assets/95182520-34e0-4bf1-9f41-58cf301f7a1a)
 
-### IAM Policies: Policies were attached to groups, not individual users, ensuring permissions are easier to manage and audit. Custom policies were created for DevOps and Developer roles to restrict them to only required AWS services.
+#### IAM Policies: Policies were attached to groups, not individual users, ensuring permissions are easier to manage and audit. Custom policies were created for DevOps and Developer roles to restrict them to only required AWS service.
 
 ### Security Features Applied
 - Multi-Factor Authentication (MFA) enforced for all IAM users
