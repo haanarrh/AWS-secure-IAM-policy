@@ -4,14 +4,10 @@ Designing a basic but secure IAM structure for a fictional company called CloutL
 CloutLead is a startup that designs, deploys, and manages cloud computing services for businesses in Nigeria,
 aiming to deliver scalable, secure, and cost-effective cloud solutions that accelerate digital transformation.
 
-##### AWS Users: 
-##### Group:
-##### Role:
-##### Policy: 
-##### Least Privilage:
-##### Multi-factor Authentication (MFA): 
+### AWS Identity Access Management (IAM) Structure
+#### Defined IAM users
+Each IAM user is assigned to a group based on their role, to ensure permissions are logically managed and follow the principle of least privilege.
 
-### Defined IAM users
 | **Username**     | **Group**          | **Purpose**                       |
 | ---------------- | ------------------ | --------------------------------- |
 | `Lola.admin`     | `Admins`           | Super admin, full access          |
@@ -57,7 +53,7 @@ CloudTrail enabled to monitor all IAM activities and log events (recommended)
 
 - It's better to use groups and policies rather than assign permissions directly to users.
 
-#### Portfolio-Worthy Lab Ideas (for future expansion)
+### Portfolio-Worthy Lab Ideas (for future expansion)
 
 - Automate IAM user and group creation using a CloudFormation template
 
@@ -67,13 +63,13 @@ CloudTrail enabled to monitor all IAM activities and log events (recommended)
 
 - Integrate IAM with AWS SSO and identity federation (e.g., Google Workspace)
 
-#### Additional Resources & Labs
+### Additional Resources & Labs
 
-AWS IAM Best Practices
+- AWS IAM Best Practices
 
-IAM Workshop (Official AWS)
+- IAM Workshop (Official AWS)
 
-FreeCodeCamp - IAM Beginner Lab
+- FreeCodeCamp - IAM Beginner Lab
 
-AWS CloudQuest IAM Role-Based Game
+- AWS CloudQuest IAM Role-Based Game
 
