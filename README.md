@@ -13,6 +13,7 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | `chika.security` | `SecurityTeam`     | Reviews logs and security alerts  |
 | `wale.analyst`   | `ReadOnlyAnalysts` | Analyzes metrics and dashboards   |
 | `ife.billing`    | `BillingTeam`      | Monitors cost reports and budgets |
+
 ![Screenshot 2025-05-19 145032](https://github.com/user-attachments/assets/2d6766e2-e7b3-485c-b209-8b81483eb258)
 
 ### Defined IAM Roles for Cloutlead
