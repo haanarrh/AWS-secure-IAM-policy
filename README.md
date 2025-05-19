@@ -37,15 +37,43 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 
 ### Security Features Applied
 
-  - Enforced MFA for all users
+Multi-Factor Authentication (MFA) enforced for all IAM users
 
-  - Password policy: min 12 characters, includes numbers & symbols
+Strong password policy: minimum 12 characters with numbers, symbols, and uppercase
 
-   -  Root account not used (only for emergencies)
+No use of root account, except for emergencies
 
-  -  No direct policy attachment to individual users
+No inline or user-attached policies; only group-attached managed/custom policies
 
-   - CloudTrail enabled (optional but recommended)
+CloudTrail enabled to monitor all IAM activities and log events (recommended)
 
 ### Lessons Learnt
+
+- Planning IAM around roles makes it scalable and easier to manage.
+
+- The principle of least privilege reduces risk exposure.
+
+- MFA and password policies are your first line of defense.
+
+- It's better to use groups and policies rather than assign permissions directly to users.
+
+#### Portfolio-Worthy Lab Ideas (for future expansion)
+
+- Automate IAM user and group creation using a CloudFormation template
+
+- Build a Python script using boto3 to rotate IAM credentials
+
+- Create a custom IAM policy simulator to test least privilege
+
+- Integrate IAM with AWS SSO and identity federation (e.g., Google Workspace)
+
+#### Additional Resources & Labs
+
+AWS IAM Best Practices
+
+IAM Workshop (Official AWS)
+
+FreeCodeCamp - IAM Beginner Lab
+
+AWS CloudQuest IAM Role-Based Game
 
