@@ -14,7 +14,7 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | `wale.analyst`   | `ReadOnlyAnalysts` | Analyzes metrics and dashboards   |
 | `ife.billing`    | `BillingTeam`      | Monitors cost reports and budgets |
 
-![Screenshot 2025-05-19 145032](https://github.com/user-attachments/assets/2d6766e2-e7b3-485c-b209-8b81483eb258)
+![IAM users](https://github.com/user-attachments/assets/2d6766e2-e7b3-485c-b209-8b81483eb258)
 
 ### Defined IAM Roles for Cloutlead
 | **Role**             | **IAM Group**      | **Description**                                                                | **Example Permissions**                                    |
@@ -26,7 +26,7 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 | **Data Analyst**     | `ReadOnlyAnalysts` | Analyzes data, reviews metrics and dashboards. No access to edit.              | `ReadOnlyAccess` (AWS managed policy)                      |
 | **Billing Manager**  | `BillingTeam`      | Manages billing and budgets, but no access to AWS services.                    | `AWSBillingReadOnlyAccess`                                 |
 
-![Screenshot 2025-05-19 143749](https://github.com/user-attachments/assets/95182520-34e0-4bf1-9f41-58cf301f7a1a)
+![IAM groups & roles](https://github.com/user-attachments/assets/95182520-34e0-4bf1-9f41-58cf301f7a1a)
 
 ### Security Features Applied
 
