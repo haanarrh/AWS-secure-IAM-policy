@@ -40,4 +40,5 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 
    - CloudTrail enabled (optional but recommended)
 
+### Lessons Learnt
 
