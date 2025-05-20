@@ -5,7 +5,7 @@ CloutLead is a startup that designs, deploys, and manages cloud computing servic
 aiming to deliver scalable, secure, and cost-effective cloud solutions that accelerate digital transformation.
 
 ### AWS Identity Access Management (IAM) Structure
-#### Defined IAM users: Each IAM user is assigned to a group based on their role, to ensure permissions are logically managed and follow the principle of least privilege.
+#### Defined IAM users: Each IAM user is assigned to a group based on their role, to ensure permissions given through policues are logically managed and follow the principle of least privilege.
 | **Username**     | **Group**          | **Purpose**                       |
 | ---------------- | ------------------ | --------------------------------- |
 | `Lola.admin`     | `Admins`           | Super admin, full access          |
@@ -42,6 +42,8 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 
 - CloudTrail enabled to monitor all IAM activities and log events (recommended)
 
+-  ![passwordPolicy](https://github.com/user-attachments/assets/3b569013-c4a3-4b4e-9cf9-f400eb6dfc61)
+
 ### Lessons Learnt
 
 - Planning IAM around roles makes it scalable and easier to manage.
@@ -64,11 +66,11 @@ aiming to deliver scalable, secure, and cost-effective cloud solutions that acce
 
 ### Additional Resources & Labs
 
-- AWS IAM Best Practices
+- AWS IAM Best Practices { }
 
-- IAM Workshop (Official AWS)
+- IAM Workshop (Official AWS) { }
 
-- FreeCodeCamp - IAM Beginner Lab
+- FreeCodeCamp - IAM Beginner Lab { }
 
-- AWS CloudQuest IAM Role-Based Game
+- AWS CloudQuest IAM Role-Based Game { }
 
